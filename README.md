@@ -31,6 +31,17 @@
 - 表驱动分发（消息分发表/注册式/状态机）是所有通用图工具的盲区，需要领域知识显式化——这是 navmap 的差异化价值，业界几乎无对应物。
 - 一线生产系统的共识：上下文质量 > 模型能力；发现与验证分离；精确率优先；精确检索是底座、语义层是插件；评估必须含良性样本且看 trace 不只看分。
 
+## 姊妹项目
+
+本调研解决"**评审时 agent 能看到什么、看多准**"（上下文层）。
+配套的 [agent-reviewer](https://github.com/Atituiset/agent-reviewer) 解决
+"**评审何时发生、如何强制发生**"（工作流层：SDD 嵌入式评审门禁 + ANDM 团队记忆飞轮）。
+
+两层在 reviewer subagent 的输入处汇合：agent-reviewer 的输入四元组
+（diff + spec + 规则 + 团队记忆）覆盖 Intent 与 Conversation，
+**Environment（代码结构上下文）由本调研的 codegraph + navmap 方案供给**
+（对应 02 篇生产决策与 05 篇 Phase 0~1）。
+
 ## 说明
 
 - 调研时间：2026-08；所有外部论断附来源链接，可逐条核查。
