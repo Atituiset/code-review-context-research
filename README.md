@@ -42,6 +42,10 @@
 **Environment（代码结构上下文）由本调研的 codegraph + navmap 方案供给**
 （对应 02 篇生产决策与 05 篇 Phase 0~1）。
 
+## 论文库
+
+正文引用的学术文献与行业报告已归档至 [papers/](papers/INDEX.md)：原文 PDF（`papers/pdf/`）+ 逐篇中文解读（`papers/notes/`），索引见 [papers/INDEX.md](papers/INDEX.md)。
+
 ## 说明
 
 - 调研时间：2026-08；所有外部论断附来源链接，可逐条核查。
