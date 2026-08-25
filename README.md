@@ -34,4 +34,4 @@
 ## 说明
 
 - 调研时间：2026-08；所有外部论断附来源链接，可逐条核查。
-- 文中"我们的工具链"指：mcp-language-server（fork）、codegraph（fork）、navmap（自研）、vul-llvm（fork）、CodeFuse-Query（参照）。
+- 文中"我们的工具链"指：[mcp-language-server](https://github.com/Atituiset/mcp-language-server)（fork）、[codegraph](https://github.com/Atituiset/codegraph)（fork）、[navmap](https://github.com/Atituiset/navmap)（自研）、vul-llvm（本地 fork，上游 [thebesttv/vul-llvm](https://github.com/thebesttv/vul-llvm)）、[CodeFuse-Query](https://github.com/Atituiset/CodeFuse-Query)（参照）。
